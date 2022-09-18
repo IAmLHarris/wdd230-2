@@ -23,7 +23,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
 
 body {
-  background-color: white;
+  background-color: rgb(4, 13, 43);
   font-family: "Open Sans", sans-serif;
   padding: 25px;
   font-size: 18px;
@@ -47,10 +47,6 @@ head {
  */
 a {
   font-size: 1em;
-}
-
-body {
-  background-color: #fdfffc;
 }
 
 .container {
@@ -79,8 +75,8 @@ header {
 }
 
 header img {
-  justify-items: center;
-  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 nav ul {
@@ -88,6 +84,12 @@ nav ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
   margin: 0;
+}
+
+.logo-box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home-grid {

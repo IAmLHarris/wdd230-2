@@ -78,6 +78,11 @@ header {
   color: #0b003b;
 }
 
+header img {
+  justify-items: center;
+  align-items: center;
+}
+
 nav ul {
   list-style: none;
   display: grid;

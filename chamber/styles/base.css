@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+:root {
+  --primary-color: #454a4d;
+  --secondary-color: #1c97fc;
+  --accent1-color: #3f48cc;
+  --accent2-color: #7f2be6;
+
+  --neutral-background: #131516;
+  --neutral-text: #d8d4cf;
+  --selection-background: #004daa;
+  --selection-text: #e8e6e3;
+}
+html {
+  background-color: #131516;
+}
+h1 {
+  font-family: "Montserrat";
+}
+
+h2 {
+  font-family: "Montserrat";
+}
+
+section {
+  font-family: "Roboto";
+}
+
+header {
+  background-color: #aaa;
+
+  padding: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+header .headBox {
+  display: grid;
+  grid-template-columns: 50px repeat(4, 1fr);
+  grid-template-rows: 50px 50px;
+}
+
+header p {
+  text-align: center;
+}
+
+header,
+main,
+footer {
+  /* max-width: 767px; */
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #36454f;
+  margin: 0 auto;
+  max-width: 780px;
+}
+
+main .mainContent {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 1rem;
+}
+main .mainSelection {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color: #454a4d;
+}
+main article ul {
+  margin: 1rem 0 0 1rem;
+}
+main picture {
+  display: none;
+  margin: 1rem;
+}
+
+footer p {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

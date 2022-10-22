@@ -64,6 +64,7 @@ main .mainContent {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   font-size: 1rem;
+  grid-template-rows: repeat(5, 200px);
 }
 main .mainSelection {
   margin: 3px;
@@ -72,6 +73,14 @@ main .mainSelection {
   background-color: #454a4d;
 }
 
+@media only screen and (min-width: 0em) {
+  #sec6 {
+    display: none;
+  }
+  #spotlight3 {
+    display: none;
+  }
+}
 main picture {
   display: none;
   margin: 1rem;

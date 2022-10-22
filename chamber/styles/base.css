@@ -62,17 +62,16 @@ nav {
 main .mainContent {
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: auto;
   font-size: 1rem;
 }
 main .mainSelection {
   margin: 3px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid #000000;
   padding: 1rem;
   background-color: #454a4d;
 }
-main article ul {
-  margin: 1rem 0 0 1rem;
-}
+
 main picture {
   display: none;
   margin: 1rem;

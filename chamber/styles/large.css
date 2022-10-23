@@ -34,4 +34,11 @@
     grid-row: 3 / 4;
     display: block;
   }
+  #spotlight3 {
+    display: block;
+  }
+  .spotlight {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 1fr);
+  }
 }

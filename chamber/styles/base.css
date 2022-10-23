@@ -72,6 +72,44 @@ main .mainSelection {
   padding: 1rem;
   background-color: #454a4d;
 }
+body h2 {
+  margin: 0%;
+  text-align: center;
+}
+
+#sec1 {
+  background-image: url(/chamber/images/licensed-image-min.jpg);
+  background-size: cover;
+  background-color: white;
+}
+#sec1 h1 {
+  background-color: var(--accent1-color);
+  padding: 5px;
+}
+
+#sec2 {
+  background-color: var(--primary-color);
+}
+
+#sec3 {
+  background-color: var(--primary-color);
+}
+
+#sec4 {
+  background-color: var(--primary-color);
+}
+
+#sec5 {
+  background-color: var(--primary-color);
+}
+.spotlight {
+  background-color: var(--secondary-color);
+}
+
+#sec6 h2 {
+  background-color: var(--accent2-color);
+  font: size 0.85em;
+}
 
 @media only screen and (min-width: 0em) {
   #sec6 {
@@ -80,7 +118,13 @@ main .mainSelection {
   #spotlight3 {
     display: none;
   }
+  #sec1 {
+    background-image: url(/chamber/images/licensed-image-min.jpg);
+
+    background-color: white;
+  }
 }
+
 main picture {
   display: none;
   margin: 1rem;

@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+:root {
+  --primary-color: #454a4d;
+  --secondary-color: #1c97fc;
+  --accent1-color: #3f48cc;
+  --accent2-color: #7f2be6;
+
+  --neutral-background: #131516;
+  --neutral-text: #d8d4cf;
+  --selection-background: #004daa;
+  --selection-text: #e8e6e3;
+}
+html {
+  background-color: #131516;
+  color: #e8e6e3;
+}
+h1 {
+  font-family: "Montserrat";
+}
+
+h2 {
+  font-family: "Montserrat";
+}
+
+section {
+  font-family: "Roboto";
+}
+
+header {
+  background-color: #aaa;
+
+  padding: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 3px;
+}
+
+header .headBox {
+  display: grid;
+  grid-template-columns: 50px repeat(4, 1fr);
+  grid-template-rows: 50px 50px;
+}
+
+header p {
+  text-align: center;
+}
+
+header,
+main,
+footer {
+  /* max-width: 767px; */
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #36454f;
+  margin: 0 auto;
+  max-width: 780px;
+}
+
+main .mainContent {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  font-size: 1rem;
+  grid-template-rows: repeat(5, 200px);
+  margin: 10px 50px;
+}
+main .mainSelection {
+  margin: 3px;
+  border: 1px solid #000000;
+  padding: 1rem;
+  background-color: #454a4d;
+}
+body h2 {
+  margin: 0%;
+  text-align: center;
+}
+
+#sec1 {
+  background-image: url(https://i.imgur.com/HAumjqx.jpg);
+  background-size: cover;
+  background-color: white;
+}
+#sec1 h1 {
+  background-color: var(--accent1-color);
+  padding: 10px;
+  width: fit-content;
+}
+
+/* #sec2 {}
+
+#sec3 {}
+*/
+
+#sec4 {
+  overflow: auto;
+}
+
+.spotlight {
+  text-align: center;
+  display: grid;
+  background-color: var(--secondary-color);
+}
+
+#sec6 h2 {
+  background-color: var(--accent2-color);
+
+  padding: 5px;
+}
+
+@media only screen and (max-width: 600em) {
+  #sec6 {
+    display: none;
+  }
+
+  #sec1 {
+    background-image: url(/chamber/images/licensed-image-min.jpg);
+
+    background-color: white;
+  }
+  .spotlight {
+    height: 100%;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  #spotlight3 {
+    display: none;
+  }
+}
+
+main picture {
+  display: none;
+  margin: 1rem;
+}
+
+footer p {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

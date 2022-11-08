@@ -13,7 +13,7 @@
     <div class="headBox">
       <img src="/chamber/images/logo.png" width="100" height="100" />
       <h1>Santiago</h1>
-      <h2>Chamber of Commerce</h2>
+      <h2><a href="/chamber/index.html">Chamber of Commerce</a></h2>
     </div>
     <nav>
       <p>struggling</p>
@@ -54,14 +54,15 @@
 
       <form method="get" action="thanks.html">
         <fieldset>
+          <legend>User Info</legend>
           <label class="ugh1">
-            First Name
-            <input type="text" name="fname" />
+            First Name <span class="required">*Required</span>
+            <input type="text" name="fname" required />
           </label>
 
           <label class="ugh1">
-            Last Name
-            <input type="text" name="lname" />
+            Last Name <span class="required">*Required</span>
+            <input type="text" name="lname" required />
           </label>
 
           <label class="ugh1">
@@ -69,9 +70,10 @@
             <input type="text" name="lname" />
           </label>
         </fieldset>
+        <button type="submit">Join Now</button>
       </form>
     </div>
-    <p>cmon</p>
+
     <footer>
       <p>2022 | L. Harris | Oklahoma |</p>
     </footer>

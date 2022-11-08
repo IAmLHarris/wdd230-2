@@ -28,10 +28,10 @@ body {
   padding: 25px;
   font-size: 18px;
   margin: 10px 40px 25px;
-  color: #444;
+  color: rgb(189, 183, 175);
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 67em) {
   body {
     margin: 10px 400px 25px;
   }
@@ -50,17 +50,8 @@ a {
   font-size: 1em;
 }
 
-h2 {
-  color: #b7d5d4;
-  background-color: #373e40;
-  text-align: center;
-  margin: 5px;
-  border-top: 5px ridge;
-  border-bottom: 5px ridge;
-}
-
 header {
-  background-color: #aaa;
+  background-color: rgb(72, 78, 81);
 
   padding: 0.75rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -94,44 +85,6 @@ header p {
   width: 100%;
 }
 
-.home-image-1 {
-  grid-column: 1/15;
-  grid-row: 1/5;
-}
-
-.block1 {
-  color: #fdfffc;
-  background-color: #141414;
-  grid-column: 10/20;
-  grid-row: 4/6;
-  border-radius: 5px;
-  padding: 0px 20px;
-}
-
-.home-grid-2 {
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(20, 1fr);
-}
-
-.home-image-2 {
-  grid-column: 9/19;
-  grid-row: 1/5;
-}
-
-.block2 {
-  color: #fdfffc;
-  background-color: #141414;
-  grid-column: 3/13;
-  grid-row: 4/6;
-  border-radius: 5px;
-  padding: 0px 20px;
-}
-
-img {
-  max-width: 100%;
-}
-
 .social {
   display: grid;
   grid-template-columns: 90% 1fr 1fr 1fr;
@@ -163,18 +116,29 @@ a:active {
   color: #0000ff;
 }
 
-form {
+.contact-container {
+  background-color: rgb(51, 55, 58);
+}
+
+.required {
+  color: red;
+  font-size: x-small;
+}
+
+.ugh1 {
+  margin: 3px;
+}
+
+fieldset {
   display: block;
   width: max-content;
   max-width: 100px;
+  background-color: #305298;
 }
 
 @media screen and (max-width: 550px) {
-  /* beginning of media query */
   .home-grid,
   nav ul {
     display: block;
   }
-
-  /* end of media query */
 }

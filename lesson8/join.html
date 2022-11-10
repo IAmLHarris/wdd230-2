@@ -67,9 +67,65 @@
 
           <label class="ugh1">
             Applicant Business Position
-            <input type="text" name="lname" />
+            <input
+              type="text"
+              name="bpos"
+              pattern="[-A-Za-z\s]{7,}"
+              title="Please only input alpha characters, hyphens, and spaces with at least 7 characters."
+            />
+          </label>
+
+          <label class="ugh1">
+            Email <span class="required">*Required</span>
+            <input
+              type="email"
+              name="email"
+              placeholder="company@email.com"
+              required
+            />
+          </label>
+
+          <label class="ugh1">
+            Phone Number <span class="required">*Required</span>
+            <input type="tel" name="pnum" required />
+          </label>
+
+          <label class="ugh1">
+            Business Name <span class="required">*Required</span>
+            <input type="text" name="bname" required />
           </label>
         </fieldset>
+
+        <fieldset>
+          <legend>Membership Status</legend>
+          <label class="ugh2">
+            <input type="radio" name="membership" value="base" /> "Basic
+            Membership (Free)"
+          </label>
+          <label class="ugh2">
+            <input type="radio" name="membership" value="bronze" /> "Bronze
+            Membership (15$ Per Month)"
+          </label>
+          <label class="ugh2">
+            <input type="radio" name="membership" value="silver" /> "Silver
+            Membership (25$ Per Month)"
+          </label>
+          <label class="ugh2">
+            <input type="radio" name="membership" value="gold" /> "Gold
+            Membership (40$ Per Month)"
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Business Description</legend>
+          <textarea
+            name="description"
+            rows="7"
+            cols="21"
+            placeholder="Describe your business!"
+          ></textarea>
+        </fieldset>
+        <span hidden>Current Date and time: </span>
         <button type="submit">Join Now</button>
       </form>
     </div>

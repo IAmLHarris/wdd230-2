@@ -127,6 +127,12 @@ a:active {
 
 .ugh1 {
   margin: 3px;
+  display: block;
+}
+
+.ugh2 {
+  margin: 3px;
+  display: block;
 }
 
 fieldset {

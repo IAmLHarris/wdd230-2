@@ -1,0 +1,76 @@
+{
+  "buisinesses": [
+    {
+      "name": "Thunder Industries",
+      "website": "thunind.com",
+      "membership": "Gold Membership",
+      "address": "1791 Southern Street",
+
+      "imageurl": "./images/thunder.png"
+    },
+    {
+      "name": "Kate Rabbit and Associates",
+      "website": "rabbitassociates.com",
+      "membership": "Silver Membership",
+      "address": "1391 Don Jackson Lane",
+
+      "imageurl": "./images/rabbit.png"
+    },
+    {
+      "name": "Parker Industries",
+      "website": "parkind.com",
+      "membership": "Bronze Membership",
+      "address": "387 Filbert Street",
+
+      "imageurl": "./images/park.png"
+    },
+    {
+      "name": "Warwick Associates",
+      "website": "warwickassociates.com",
+      "membership": "Silver Membership",
+      "address": "2491 Andy Street",
+
+      "imageurl": "./images/warwick.png"
+    },
+    {
+      "name": "Slate Decorating",
+      "website": "slatedeco.com",
+      "membership": "Silver Membership",
+      "address": "904 Webster Street",
+
+      "imageurl": "./images/slate.png"
+    },
+    {
+      "name": "Postage Pals",
+      "website": "postagepals.com",
+      "membership": "Bronze Membership",
+      "address": "2467 Mapleview Drive",
+
+      "imageurl": "./images/postage.png"
+    },
+    {
+      "name": "Blue Water Engineering",
+      "website": "bluewater.com",
+      "membership": "Silver Membership",
+      "address": "985 Don Jackson Lane",
+
+      "imageurl": "./images/bluewater.png"
+    },
+    {
+      "name": "Wishmonger of Santiago",
+      "website": "wishmonger.com",
+      "membership": "Basic Membership",
+      "address": "1065 Cambridge Court",
+
+      "imageurl": "./images/wishmonger.png"
+    },
+    {
+      "name": "Artemis Coding",
+      "website": "artemiscoding.com",
+      "membership": "Silver Membership",
+      "address": "2275 Marietta Street",
+
+      "imageurl": "./images/coding.png"
+    }
+  ]
+}

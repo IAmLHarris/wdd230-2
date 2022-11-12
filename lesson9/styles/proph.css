@@ -1,0 +1,39 @@
+body {
+  max-width: 75em;
+  margin: 0 auto;
+}
+
+.buiscards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 0.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #000;
+  margin: 0.25rem;
+}
+
+@media only screen and (max-width: 35em) {
+  .cards {
+    justify-items: center;
+  }
+  img {
+    width: 60%;
+  }
+  section {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 60em) {
+  .cards {
+    justify-items: center;
+  }
+}

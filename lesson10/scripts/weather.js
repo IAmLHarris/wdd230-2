@@ -24,6 +24,7 @@ function displayResults(weatherData) {
   )}</strong>`;
 
   const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+  const desc = weatherData.weather[0].description;
 
   weatherIcon.setAttribute("src", iconsrc);
   weatherIcon.setAttribute("alt", desc);

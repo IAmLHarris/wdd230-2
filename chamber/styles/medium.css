@@ -37,10 +37,23 @@
 
   .spotlight {
     height: 100%;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 
-  #spotlight3 {
+  .spotlight section:nth-child(1) {
+    grid-column: auto;
+  }
+
+  .spotlight section:nth-child(2) {
+    grid-column: auto;
+  }
+
+  .spotlight section:nth-child(3) {
     display: none;
+  }
+
+  .spotlight section {
+    max-width: 300px;
   }
 }

@@ -1,7 +1,7 @@
 @media only screen and (min-width: 60em) {
   main .mainContent {
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 200px);
+    /* grid-template-rows: repeat(3, 200px); */
   }
 
   #sec1 {
@@ -34,11 +34,12 @@
     grid-row: 3 / 4;
     display: block;
   }
-  #spotlight3 {
+  .spotlight section:nth-child(3) {
     display: block;
+    background-color: brown;
   }
-  .spotlight {
-    grid-template-columns: auto;
-    grid-template-rows: repeat(3, 1fr);
-  }
+}
+.spotlight {
+  grid-template-columns: auto;
+  grid-template-rows: repeat(3, 300px);
 }

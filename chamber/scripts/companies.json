@@ -1,0 +1,28 @@
+{
+  "buisinesses": [
+    {
+      "name": "Thunder Industries",
+      "website": "thunind.com",
+      "membership": "Gold Membership",
+      "address": "1791 Southern Street",
+
+      "imageurl": "./images/thunder.png"
+    },
+    {
+      "name": "Kate Rabbit and Associates",
+      "website": "rabbitassociates.com",
+      "membership": "Silver Membership",
+      "address": "1391 Don Jackson Lane",
+
+      "imageurl": "./images/rabbit.png"
+    },
+    {
+      "name": "Parker Industries",
+      "website": "parkind.com",
+      "membership": "Bronze Membership",
+      "address": "387 Filbert Street",
+
+      "imageurl": "./images/park.png"
+    }
+  ]
+}

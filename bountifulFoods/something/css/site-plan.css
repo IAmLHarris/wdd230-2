@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Cabin&display=swap");
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: #ddd8dc;
+}
+
+html {
+  background-color: #ad8068;
+}
+h2,
+h1,
+h3,
+h4,
+h5 {
+  font-family: Alegreya, serif;
+}
+
+p {
+  font-family: "Cabin", Cabin, sans-serif;
+}
+
+.primary {
+  background-color: #ad8068;
+}
+.secondary {
+  background-color: #ddd8dc;
+}
+.accent1 {
+  background-color: #d64550;
+}
+.accent2 {
+  background-color: #3f826d;
+}

@@ -89,11 +89,6 @@ body h2 {
   width: fit-content;
 }
 
-/* #sec2 {}
-
-#sec3 {}
-*/
-
 #sec4 {
   overflow: auto;
 }
@@ -120,19 +115,36 @@ body h2 {
 
     background-color: white;
   }
-  .spotlight {
-    height: 100%;
-    grid-template-rows: repeat(2, 1fr);
+
+  #sec5 {
+    height: max-content;
   }
-  #spotlight3 {
+  .spotlight {
+    grid-template-rows: repeat(2, 200px);
+    height: max-content;
+  }
+
+  .spotlight section {
+    max-height: 300px;
+  }
+
+  .spotlight section:nth-child(3) {
     display: none;
   }
+}
+
+.spotlight p {
+  margin: 0%;
 }
 
 main picture {
   display: none;
   margin: 1rem;
 }
+
+/* footer {
+  position: fixed;
+} */
 
 footer p {
   font-family: "Courier New", Courier, monospace;

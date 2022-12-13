@@ -75,7 +75,8 @@ main {
 
 #image1 {
   grid-area: 1/1/4/6;
-  background: url(/bountifulFoods/images/promo/strawberries.jpg);
+  /* background: url(/bountifulFoods/images/promo/strawberries.jpg); */
+  background: url(/bountifulFoods/images/bountifullogo.png);
   background-position: center;
   background-size: cover;
   background-color: var(--accent1-color);

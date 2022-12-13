@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Bountiful Foods</title>
     <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/medium.css" />
-    <link rel="stylesheet" href="styles/large.css" />
+    <!-- <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" /> -->
     <link rel="stylesheet" href="styles/normalize.css" />
 
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico" />
@@ -15,26 +15,54 @@
 
   <body>
     <header>
-      <img src="images/bountifullogo.png" />
-      <h1>Bountiful Foods</h1>
-      <a href="/bountifulFoods/fresh.html">Fresh Page</a>
-      <a href="/bountifulFoods/aboutUs.html">About Us Page</a>
-      Social media links (at least three) (no account necessary).
+      <div class="headerWrapper">
+        <div class="bountifulLogo">
+          <a href="/bountifulFoods/index.html"
+            ><img src="images/bountifullogo.png" alt="Boutiful Foods Logo"
+          /></a>
+          <a href="/bountifulFoods/index.html"><h1>Bountiful Foods</h1></a>
+        </div>
+        <a href="/bountifulFoods/fresh.html">Fresh Page</a>
+        <a href="/bountifulFoods/aboutUs.html">About Us Page</a>
+
+        <div class="socialMedia">
+          <a
+            href="https://en.wikipedia.org/wiki/Google%2B#Shutdown_of_consumer_version"
+            ><img src="images/logos/googleplus.png" alt="Google+ Logo" />
+          </a>
+          <a href="https://twitter.com/"
+            ><img src="images/logos/twitter.png" alt="Twitter Logo" />
+          </a>
+          <a href="https://www.pinterest.com/"
+            ><img src="images/logos/pinterest.png" alt="Google+ Logo" />
+          </a>
+        </div>
+      </div>
     </header>
     <main>
-      <p>hey there</p>
-
-      <a href="/bountifulFoods/fresh.html">Fresh Page</a>
-      <a href="/bountifulFoods/aboutUs.html">About Us Page</a>
-
       <div class="mainSelections">
+        <section id="image1"></section>
+
         <section id="sec1">
           Summary information about any coastal area or areas in the southern
           California coast of your choosing.
         </section>
         <section id="sec2">
-          A call to action to make your own fruit drink mix. This link can link
-          to the Fresh page.
+          <div id="freshPageBox">
+            <h2>Fresh!</h2>
+            <p>
+              There are many compelling reasons why Barack Obama, the 44th
+              President of the United States, should be a playable character in
+              the popular video game series Super Smash Bros. For one, Obama is
+              a highly influential and historic figure who served as the first
+              African American President of the United States.
+            </p>
+            <inline id="drinks">
+              <img src="/bountifulFoods/images/promo/redDrink.jpg" />
+              <img src="/bountifulFoods/images/promo/greenDrink.jpg" />
+              <img src="/bountifulFoods/images/promo/pinkDrink.jpg" />
+            </inline>
+          </div>
         </section>
         <section id="sec3">
           The weather card(s) must summarize the current weather conditions for
